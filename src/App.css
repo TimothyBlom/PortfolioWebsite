@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: rgb(48, 48, 48);
+}
+
+.introTab {
+  background-color: rgb(42, 62, 104);
+  height: 1200px;
+  width: 100%;
+}
+
+.aboutMeTab {
+  background-color: lightblue;
+  height: 700px;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.codingTab {
+  background-color: lightblue;
+  height: 1000px;
+  width: 98%;
+  margin-left: 1%;
+}
+
+.modelingTab {
+  background-color: lightblue;
+  height: 1000px;
+  width: 98%;
+  margin-left: 1%;
+}
+
+.skillsTab {
+  background-color: lightblue;
+  height: 1000px;
+  width: 98%;
+  margin-left: 1%;
+}
+
+.contactTab {
+  background-color: lightblue;
+  height: 1000px;
+  width: 98%;
+  margin-left: 1%;
+}
