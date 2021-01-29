@@ -1,15 +1,27 @@
 import './App.css';
+import Tim from "./pictures/Tim.jpg"
+import Logo from "./pictures/Logo.png"
 
 function App() {
   return (
     <div className="App">
 
       <div className="introTab">
-        <p>Me (intro)</p>
+        <img className="profilePicture" src={Tim}/>
+        <img className="logo" src={Logo}/>
+        <div className="logoText">
+          <p>Front-End Developer</p>
+          <p>3D Game Artist</p>
+          <p>Cat lover</p>
+        </div>
       </div>
       
       <div className="aboutMeTab">
         <p>About me (info)</p>
+        <p>
+          I am a Front End Developer and a 3D Artist. I live in the Netherlands in a little town called Heerhugowaard. 
+          I spent most of my time playing video games, learning new code, making 3D art and coming up with new cool projects I never end up finishing.
+        </p>
       </div>
       
       <div className="codingTab">
