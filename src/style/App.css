@@ -3,12 +3,24 @@
   background-color: rgb(48, 48, 48);
 }
 
+/* navigator */
+.navigator {
+  width: 150px;
+  height: 200px;
+  position: fixed;
+  background-color: rgb(117, 0, 0);
+  right: 0;
+  margin: 10px;
+}
+
 
 /* intro */
 .introTab {
   background-color: rgb(42, 62, 104);
   height: 1200px;
-  width: 100%;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
   padding-top: 50px;
 }
 
@@ -25,19 +37,20 @@
 }
 
 .logoText {
-  width: 40%;
+  width: 40%; 
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: -80px;
+  margin-top: -50px;
   font-size: xx-large;
   font-weight: bolder;
-  color: white;
+  color: rgb(173, 173, 173);
 }
 
 .logoText p {
   float: left;
   margin-left: 40px;
-  border-bottom: solid white 3px;
+  margin-top: -15px;
+  border-bottom: solid rgb(97, 179, 194) 3px;
 }
 
 
