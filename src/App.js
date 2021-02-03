@@ -36,6 +36,10 @@ function App() {
       <div className="coding tab">
         <p className="tabTitle">Coding projects</p>
 
+        {/* <div className="codeText">
+          <p>My projects</p>
+        </div> */}
+
         <div className="codeProjectContainer">
           <p></p>
           <div>

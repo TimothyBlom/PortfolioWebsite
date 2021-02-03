@@ -78,30 +78,39 @@
 }
 
 .aboutMeTextTop {
-  width: 70%;
+  width: 50%;
   margin-bottom: 50px;
   margin-left: 5%;
 }
 
 .aboutMeTextBottom {
-  width: 70%;
-  margin-left: 25%;
+  width: 50%;
+  margin-left: 45%;
   margin-right: 5%;
 }
 
-
+/* coding */
 .coding {
-  height: 1000px;
+  min-height: 1000px;
   width: 98%;
   margin-left: 1%;
+}
+
+.codeText {
+  height: 800px;
+  width: 500px;
+  border: solid 3px blue;
+  border-radius: 50px;
+  margin: 50px 100px;
+  float: left;
 }
 
 .codeProjectContainer {
   height: 800px;
   width: 500px;
-  background-color: blue;
+  border: solid 3px blue;
   border-radius: 50px;
-  margin: 0 100px;
+  margin: 50px 100px;
   float: left;
 }
 
