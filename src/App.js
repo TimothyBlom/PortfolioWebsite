@@ -1,4 +1,4 @@
-import './style/App.css';
+import './style/App.scss';
 import Tim from "./pictures/Tim.jpg"
 import Logo from "./pictures/Logo.png"
 

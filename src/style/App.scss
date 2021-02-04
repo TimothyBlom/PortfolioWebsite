@@ -3,6 +3,20 @@
   background-color: rgb(48, 48, 48);
 }
 
+.tabTitle {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.tab {
+  background-color: lightblue;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+
 /* navigator */
 .navigator {
   width: 150px;
@@ -15,9 +29,9 @@
 
 
 /* intro */
-.introTab {
+.intro {
   background-color: rgb(42, 62, 104);
-  height: 1200px;
+  min-height: 1200px;
   width: 98%;
   margin-left: 1%;
   margin-right: 1%;
@@ -26,7 +40,7 @@
 
 .profilePicture {
   width: 40%;
-  /* position: absolute; */
+  max-width: 850px;
   float: right;
   margin-right: 100px;
 }
@@ -37,7 +51,7 @@
 }
 
 .logoText {
-  width: 40%;
+  width: 40%; 
   margin-left: 5%;
   margin-right: 5%;
   margin-top: -50px;
@@ -50,42 +64,69 @@
   float: left;
   margin-left: 40px;
   margin-top: -15px;
-  border-bottom: solid rgb(97, 179, 194) 3px;
+  border-bottom: solid rgb(157, 226, 238) 3px;
 }
 
 
 /* about me */
-.aboutMeTab {
-  background-color: lightblue;
-  height: 700px;
+.aboutMe {
   width: 80%;
   margin-left: 10%;
   margin-top: 100px;
+  font-size: 20px;
+  text-align: left;
 }
 
-.codingTab {
-  background-color: lightblue;
+.aboutMeTextTop {
+  width: 50%;
+  margin-bottom: 50px;
+  margin-left: 5%;
+}
+
+.aboutMeTextBottom {
+  width: 50%;
+  margin-left: 45%;
+  margin-right: 5%;
+}
+
+/* coding */
+.coding {
+  min-height: 1000px;
+  width: 98%;
+  margin-left: 1%;
+}
+
+.codeText {
+  height: 800px;
+  width: 500px;
+  border: solid 3px blue;
+  border-radius: 50px;
+  margin: 50px 100px;
+  float: left;
+}
+
+.codeProjectContainer {
+  height: 800px;
+  width: 500px;
+  border: solid 3px blue;
+  border-radius: 50px;
+  margin: 50px 100px;
+  float: left;
+}
+
+.modeling {
   height: 1000px;
   width: 98%;
   margin-left: 1%;
 }
 
-.modelingTab {
-  background-color: lightblue;
+.skills {
   height: 1000px;
   width: 98%;
   margin-left: 1%;
 }
 
-.skillsTab {
-  background-color: lightblue;
-  height: 1000px;
-  width: 98%;
-  margin-left: 1%;
-}
-
-.contactTab {
-  background-color: lightblue;
+.contact {
   height: 1000px;
   width: 98%;
   margin-left: 1%;
