@@ -36,9 +36,18 @@ function App() {
       <div className="coding tab">
         <p className="tabTitle">Coding projects</p>
 
-        {/* <div className="codeText">
-          <p>My projects</p>
-        </div> */}
+        <div className="codeText">
+          <p>
+            My projects My goal is to find a job as an Front-End developer. I will achief this by constantly learning new code skills and showing it by 
+            regularly updating my GitHub portfolio, and (the hardest part) by not giving up. I have had/have a veriaty of jobs and nothing made 
+            me as happy as creating digital content. Also coders are very cool people and fun to work with.
+          </p>
+          <p>
+            My projects My goal is to find a job as an Front-End developer. I will achief this by constantly learning new code skills and showing it by 
+            regularly updating my GitHub portfolio, and (the hardest part) by not giving up. I have had/have a veriaty of jobs and nothing made 
+            me as happy as creating digital content. Also coders are very cool people and fun to work with.
+          </p>
+        </div>
 
         <div className="codeProjectContainer">
           <p></p>

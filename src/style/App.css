@@ -1,36 +1,14 @@
-.App {
-  text-align: center;
-  background-color: rgb(48, 48, 48);
-}
-
-.tabTitle {
-  font-size: 40px;
-  font-weight: bolder;
-  text-align: left;
-  margin-left: 50px;
-}
-
-.tab {
-  background-color: lightblue;
-  padding-bottom: 30px;
-  border-radius: 20px;
-  margin-bottom: 100px;
-}
-
-/* navigator */
 .navigator {
   width: 150px;
   height: 200px;
   position: fixed;
-  background-color: rgb(117, 0, 0);
+  background-color: #750000;
   right: 0;
   margin: 10px;
 }
 
-
-/* intro */
 .intro {
-  background-color: rgb(42, 62, 104);
+  background-color: #2a3e68;
   min-height: 1200px;
   width: 98%;
   margin-left: 1%;
@@ -51,24 +29,22 @@
 }
 
 .logoText {
-  width: 40%; 
+  width: 40%;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: -50px;
   font-size: xx-large;
   font-weight: bolder;
-  color: rgb(173, 173, 173);
+  color: #adadad;
 }
 
 .logoText p {
   float: left;
   margin-left: 40px;
   margin-top: -15px;
-  border-bottom: solid rgb(157, 226, 238) 3px;
+  border-bottom: solid #9de2ee 3px;
 }
 
-
-/* about me */
 .aboutMe {
   width: 80%;
   margin-left: 10%;
@@ -89,7 +65,6 @@
   margin-right: 5%;
 }
 
-/* coding */
 .coding {
   min-height: 1000px;
   width: 98%;
@@ -99,10 +74,17 @@
 .codeText {
   height: 800px;
   width: 500px;
-  border: solid 3px blue;
-  border-radius: 50px;
+  background-color: rgba(104, 104, 104, 0.11);
+  border-radius: 10px;
   margin: 50px 100px;
   float: left;
+}
+
+.codeText p {
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  padding: 15px;
 }
 
 .codeProjectContainer {
@@ -131,3 +113,23 @@
   width: 98%;
   margin-left: 1%;
 }
+
+.App {
+  text-align: center;
+  background-color: #303030;
+}
+
+.tabTitle {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 50px;
+}
+
+.tab {
+  background-color: lightblue;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  margin-bottom: 100px;
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,37 @@
+.intro {
+  background-color: rgb(42, 62, 104);
+  min-height: 1200px;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-top: 50px;
+}
+
+.profilePicture {
+  width: 40%;
+  max-width: 850px;
+  float: right;
+  margin-right: 100px;
+}
+
+.logo {
+  width: 50%;
+  margin-top: 200px;
+}
+
+.logoText {
+  width: 40%; 
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: -50px;
+  font-size: xx-large;
+  font-weight: bolder;
+  color: rgb(173, 173, 173);
+}
+
+.logoText p {
+  float: left;
+  margin-left: 40px;
+  margin-top: -15px;
+  border-bottom: solid rgb(157, 226, 238) 3px;
+}

@@ -1,0 +1,29 @@
+.coding {
+  min-height: 1000px;
+  width: 98%;
+  margin-left: 1%;
+}
+
+.codeText {
+  height: 800px;
+  width: 500px;
+  background-color: rgba(104, 104, 104, 0.11);
+  border-radius: 10px;
+  margin: 50px 100px;
+  float: left;
+  & p{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    padding: 15px;
+  }
+}
+
+.codeProjectContainer {
+  height: 800px;
+  width: 500px;
+  border: solid 3px blue;
+  border-radius: 50px;
+  margin: 50px 100px;
+  float: left;
+}
