@@ -2,6 +2,7 @@
   min-height: 1000px;
   width: 98%;
   margin-left: 1%;
+  font-size: 20px;
 }
 
 .codeText {
@@ -26,4 +27,28 @@
   border-radius: 50px;
   margin: 50px 100px;
   float: left;
+}
+
+.codeProjectImg {
+  width: 400px;
+}
+
+.codeProjectTitle {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.codeProjectDescription {
+  height: 150px;
+  margin: 10px 20px;
+}
+
+.codeProjectFeatures {
+  height: 250px;
+  margin: 10px 20px;
+}
+
+.codeProjectGitLink {
+ text-align: left;
+ margin-left: 30px;
 }
