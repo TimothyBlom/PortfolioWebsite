@@ -1,10 +1,13 @@
 import './style/App.scss';
 import {Swiper, SwiperSlide} from "swiper/react"
-import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, EffectCoverflow } from 'swiper';
 import 'swiper/swiper-bundle.css';
 import Tim from "./pictures/Tim.jpg"
 import Logo from "./pictures/Logo.png"
 import project1 from "./pictures/project1.jpg"
+import Art1 from "./pictures/3dArt1.png"
+import Art2 from "./pictures/3dArt2.png"
+import Art3 from "./pictures/3dArt3.png"
+import Art4 from "./pictures/3dArt4.png"
 
 function App() {
   return (
@@ -113,25 +116,25 @@ function App() {
           grabCursor={true}
         >
           <SwiperSlide>
-            <img className="modelingProjectImg" src={project1} alt="" />
+            <img className="modelingProjectImg" src={Art1} alt="" />
             <p>
               This is an project
             </p>
           </SwiperSlide>
           <SwiperSlide>
-            <img className="modelingProjectImg" src={project1} alt="" />
+            <img className="modelingProjectImg" src={Art2} alt="" />
             <p>
               This is an project
             </p>
           </SwiperSlide>
           <SwiperSlide>
-            <img className="modelingProjectImg" src={project1} alt="" />
+            <img className="modelingProjectImg" src={Art3} alt="" />
             <p>
               This is an project
             </p>
           </SwiperSlide>
           <SwiperSlide>
-            <img className="modelingProjectImg" src={project1} alt="" />
+            <img className="modelingProjectImg" src={Art4} alt="" />
             <p>
               This is an project
             </p>
@@ -143,6 +146,11 @@ function App() {
 {/* Skills */}
       <div className="skills tab">
         <p className="tabTitle">My programs skills (interactive cv)</p>
+
+        <div>
+          
+        </div>
+
       </div>
      
 {/* Contact Me */}
