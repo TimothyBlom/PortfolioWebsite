@@ -69,6 +69,7 @@
   min-height: 1000px;
   width: 98%;
   margin-left: 1%;
+  font-size: 20px;
 }
 
 .codeText {
@@ -96,16 +97,78 @@
   float: left;
 }
 
+.codeProjectImg {
+  width: 400px;
+}
+
+.codeProjectTitle {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.codeProjectDescription {
+  height: 150px;
+  margin: 10px 20px;
+}
+
+.codeProjectFeatures {
+  height: 250px;
+  margin: 10px 20px;
+}
+
+.codeProjectGitLink {
+  text-align: left;
+  margin-left: 30px;
+}
+
 .modeling {
   height: 1000px;
   width: 98%;
   margin-left: 1%;
 }
 
+.ModelingSlider {
+  height: 80%;
+  margin-top: 100px;
+}
+
+.modelingProjectImg {
+  width: 80%;
+}
+
 .skills {
-  height: 1000px;
+  min-height: 800px;
   width: 98%;
   margin-left: 1%;
+}
+
+.skillsText {
+  width: 500px;
+  height: 600px;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  background-color: rgba(104, 104, 104, 0.11);
+  border-radius: 10px;
+  margin: 50px 100px;
+  padding: 15px;
+  float: left;
+}
+
+.skillsSlider {
+  height: 100%;
+  margin-top: 50px;
+}
+
+.skillsImg {
+  width: 125px;
+  margin: 15px;
+}
+
+.skillsSliderTitle {
+  margin-bottom: -50px;
+  margin-top: 75px;
+  font-weight: bold;
 }
 
 .contact {
@@ -117,6 +180,7 @@
 .App {
   text-align: center;
   background-color: #303030;
+  font-size: 20px;
 }
 
 .tabTitle {

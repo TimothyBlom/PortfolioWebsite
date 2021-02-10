@@ -8,6 +8,17 @@ import Art1 from "./pictures/3dArt1.png"
 import Art2 from "./pictures/3dArt2.png"
 import Art3 from "./pictures/3dArt3.png"
 import Art4 from "./pictures/3dArt4.png"
+import program1 from "./pictures/programIcons/htmlLogo.png"
+import program2 from "./pictures/programIcons/cssLogo.png"
+import program3 from "./pictures/programIcons/javascriptLogo.png"
+import program4 from "./pictures/programIcons/reactLogo.png"
+import program5 from "./pictures/programIcons/sassLogo.png"
+import program6 from "./pictures/programIcons/gitLogo.png"
+import program7 from "./pictures/programIcons/3dsMaxLogo.jpg"
+import program8 from "./pictures/programIcons/mayaLogo.png"
+import program9 from "./pictures/programIcons/cinema4dLogo.png"
+import program10 from "./pictures/programIcons/substancePainterLogo.png"
+import program11 from "./pictures/programIcons/unityLogo.png"
 
 function App() {
   return (
@@ -115,24 +126,28 @@ function App() {
           scrollbar={{ draggable: true }}
           grabCursor={true}
         >
+
           <SwiperSlide>
             <img className="modelingProjectImg" src={Art1} alt="" />
             <p>
               This is an project
             </p>
           </SwiperSlide>
+
           <SwiperSlide>
             <img className="modelingProjectImg" src={Art2} alt="" />
             <p>
               This is an project
             </p>
           </SwiperSlide>
+
           <SwiperSlide>
             <img className="modelingProjectImg" src={Art3} alt="" />
             <p>
               This is an project
             </p>
           </SwiperSlide>
+
           <SwiperSlide>
             <img className="modelingProjectImg" src={Art4} alt="" />
             <p>
@@ -165,31 +180,71 @@ function App() {
         </p>
 
         <Swiper className="skillsSlider"
-          slidesPerView={3}
+          slidesPerView={4}
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
           grabCursor={true}
+          loop={true}
         >
 
           <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
+            <img className="skillsImg" src={program1} alt="" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
+            <img className="skillsImg" src={program2} alt="" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
+            <img className="skillsImg" src={program3} alt="" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
+            <img className="skillsImg" src={program4} alt="" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
+            <img className="skillsImg" src={program5} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img className="skillsImg" src={program6} alt="" />
+          </SwiperSlide>
+
+        </Swiper>
+
+        <p className="skillsSliderTitle">
+          3D Modeling Programs
+        </p>
+
+        <Swiper className="skillsSlider"
+          slidesPerView={4}
+          navigation
+          pagination={{ clickable: true }}
+          scrollbar={{ draggable: true }}
+          grabCursor={true}
+          loop={true}
+        >
+
+          <SwiperSlide>
+            <img className="skillsImg" src={program7} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img className="skillsImg" src={program8} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img className="skillsImg" src={program9} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img className="skillsImg" src={program10} alt="" />
+          </SwiperSlide>
+
+          <SwiperSlide>
+            <img className="skillsImg" src={program11} alt="" />
           </SwiperSlide>
 
         </Swiper>
@@ -199,45 +254,12 @@ function App() {
         </p>
 
         <Swiper className="skillsSlider"
-          slidesPerView={3}
+          slidesPerView={4}
           navigation
           pagination={{ clickable: true }}
           scrollbar={{ draggable: true }}
           grabCursor={true}
-        >
-
-          <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
-          </SwiperSlide>
-
-        </Swiper>
-
-        <p className="skillsSliderTitle">
-          Developer Programs
-        </p>
-
-        <Swiper className="skillsSlider"
-          slidesPerView={3}
-          navigation
-          pagination={{ clickable: true }}
-          scrollbar={{ draggable: true }}
-          grabCursor={true}
+          loop={true}
         >
 
           <SwiperSlide>
