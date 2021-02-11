@@ -1,14 +1,20 @@
 .navigator {
-  width: 150px;
-  height: 200px;
+  width: 160px;
   position: fixed;
-  background-color: #750000;
-  right: 0;
+  background-color: rgba(172, 172, 172, 0.205);
+  right: 12px;
   margin: 10px;
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bolder;
+  color: white;
+  border-radius: 30px;
+  padding-left: 15px;
 }
 
 .intro {
-  background-color: #2a3e68;
+  background: -webkit-gradient(linear, left top, right top, from(#124a94), to(#1d1d1d));
+  background: linear-gradient(90deg, #124a94 0%, #1d1d1d 100%);
   min-height: 1200px;
   width: 98%;
   margin-left: 1%;
@@ -18,7 +24,7 @@
 
 .profilePicture {
   width: 40%;
-  max-width: 850px;
+  max-width: 840px;
   float: right;
   margin-right: 100px;
 }
@@ -94,7 +100,8 @@
   border: solid 3px blue;
   border-radius: 50px;
   margin: 50px 100px;
-  float: left;
+  display: inline-block;
+  vertical-align: left;
 }
 
 .codeProjectImg {
@@ -158,29 +165,61 @@
 .skillsSlider {
   height: 100%;
   margin-top: 50px;
+  width: 50%;
 }
 
 .skillsImg {
-  width: 125px;
+  width: 100px;
   margin: 15px;
 }
 
 .skillsSliderTitle {
   margin-bottom: -50px;
-  margin-top: 75px;
+  margin-top: 80px;
   font-weight: bold;
 }
 
 .contact {
-  height: 1000px;
+  height: 600px;
   width: 98%;
   margin-left: 1%;
 }
 
+.myInfo {
+  background-color: rgba(48, 48, 48, 0.219);
+  width: 300px;
+  margin-left: 5%;
+  margin-top: 100px;
+  padding-top: 10px;
+}
+
+.infoAndImg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px;
+}
+
+.infoAndImg p {
+  margin-top: 10px;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+.infoImg {
+  height: 50px;
+}
+
+.infoLogo {
+  width: 250px;
+}
+
 .App {
   text-align: center;
-  background-color: #303030;
+  background: -webkit-gradient(linear, left top, right top, from(#8d8d8d), to(#303030));
+  background: linear-gradient(90deg, #8d8d8d 0%, #303030 100%);
   font-size: 20px;
+  padding-bottom: 100px;
 }
 
 .tabTitle {

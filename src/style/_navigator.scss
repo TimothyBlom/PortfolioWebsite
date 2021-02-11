@@ -1,8 +1,13 @@
 .navigator {
-  width: 150px;
-  height: 200px;
+  width: 160px;
   position: fixed;
-  background-color: rgb(117, 0, 0);
-  right: 0;
+  background-color: rgba(172, 172, 172, 0.205);
+  right: 12px;
   margin: 10px;
+  text-align: left;
+  text-decoration: underline;
+  font-weight: bolder;
+  color: white;
+  border-radius: 30px;
+  padding-left: 15px;
 }

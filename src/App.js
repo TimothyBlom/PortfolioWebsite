@@ -1,7 +1,7 @@
 import './style/App.scss';
 import {Swiper, SwiperSlide} from "swiper/react"
 import 'swiper/swiper-bundle.css';
-import Tim from "./pictures/Tim.jpg"
+import Tim from "./pictures/Tim1.png"
 import Logo from "./pictures/Logo.png"
 import Logo2 from "./pictures/Logo2.png"
 import project1 from "./pictures/project1.jpg"
@@ -20,6 +20,7 @@ import program8 from "./pictures/programIcons/mayaLogo.png"
 import program9 from "./pictures/programIcons/cinema4dLogo.png"
 import program10 from "./pictures/programIcons/substancePainterLogo.png"
 import program11 from "./pictures/programIcons/unityLogo.png"
+import program12 from "./pictures/programIcons/vscLogo.png"
 import Icon1 from "./pictures/EmailLogo.png"
 import Icon2 from "./pictures/GithubLogo.png"
 import Icon3 from "./pictures/ArtstationLogo.png"
@@ -30,7 +31,12 @@ function App() {
     <div className="App">
 
       <div className="navigator">
-        nav
+        <p>Top</p>
+        <p>About Me</p>
+        <p>Coding Projects</p>
+        <p>3D Projects</p>
+        <p>Programs Skills</p>
+        <p>Contact Me</p>
       </div>
 
 {/* Intro */}
@@ -217,6 +223,10 @@ function App() {
             <img className="skillsImg" src={program6} alt="" />
           </SwiperSlide>
 
+          <SwiperSlide>
+            <img className="skillsImg" src={program12} alt="" />
+          </SwiperSlide>
+
         </Swiper>
 
         <p className="skillsSliderTitle">
@@ -268,23 +278,23 @@ function App() {
         >
 
           <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
+            <img className="skillsImg" src={program11} alt="" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
+            <img className="skillsImg" src={program11} alt="" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
+            <img className="skillsImg" src={program11} alt="" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
+            <img className="skillsImg" src={program11} alt="" />
           </SwiperSlide>
 
           <SwiperSlide>
-            <img className="skillsImg" src={project1} alt="" />
+            <img className="skillsImg" src={program11} alt="" />
           </SwiperSlide>
 
         </Swiper>
