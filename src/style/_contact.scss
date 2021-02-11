@@ -1,5 +1,31 @@
 .contact {
-  height: 1000px;
+  height: 600px;
   width: 98%;
   margin-left: 1%;
+}
+
+.myInfo {
+  background-color: rgba(48, 48, 48, 0.219);
+  width: 300px;
+  margin-left: 5%;
+  margin-top: 100px;
+  padding-top: 10px;
+}
+
+.infoAndImg {
+  display: flex;
+  margin: 20px;
+  & p {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bolder;
+  }
+}
+
+.infoImg {
+  height: 50px;
+}
+
+.infoLogo {
+  width: 250px;
 }

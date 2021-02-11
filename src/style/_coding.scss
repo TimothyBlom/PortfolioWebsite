@@ -26,7 +26,8 @@
   border: solid 3px blue;
   border-radius: 50px;
   margin: 50px 100px;
-  float: left;
+  display: inline-block;
+  vertical-align: left;
 }
 
 .codeProjectImg {

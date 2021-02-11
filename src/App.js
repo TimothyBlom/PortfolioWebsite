@@ -3,6 +3,7 @@ import {Swiper, SwiperSlide} from "swiper/react"
 import 'swiper/swiper-bundle.css';
 import Tim from "./pictures/Tim.jpg"
 import Logo from "./pictures/Logo.png"
+import Logo2 from "./pictures/Logo2.png"
 import project1 from "./pictures/project1.jpg"
 import Art1 from "./pictures/3dArt1.png"
 import Art2 from "./pictures/3dArt2.png"
@@ -19,6 +20,10 @@ import program8 from "./pictures/programIcons/mayaLogo.png"
 import program9 from "./pictures/programIcons/cinema4dLogo.png"
 import program10 from "./pictures/programIcons/substancePainterLogo.png"
 import program11 from "./pictures/programIcons/unityLogo.png"
+import Icon1 from "./pictures/EmailLogo.png"
+import Icon2 from "./pictures/GithubLogo.png"
+import Icon3 from "./pictures/ArtstationLogo.png"
+import Icon4 from "./pictures/LinkedinLogo.png"
 
 function App() {
   return (
@@ -289,6 +294,33 @@ function App() {
 {/* Contact Me */}
       <div className="contact tab">
         <p className="tabTitle">Contact me</p>
+
+        <div className="myInfo">
+
+          <img className="infoLogo" src={Logo2} alt="" />
+
+          <div className="infoAndImg">
+            <img className="infoImg" src={Icon1} alt="" />
+            <p>tga.blom@gmail.com</p>
+          </div>
+
+          <div className="infoAndImg">
+            <img className="infoImg" src={Icon2} alt="" />
+            <p>My GitHub</p>
+          </div>
+
+          <div className="infoAndImg">
+            <img className="infoImg" src={Icon3} alt="" />
+            <p>My Artstation</p>
+          </div>
+
+          <div className="infoAndImg">
+            <img className="infoImg" src={Icon4} alt="" />
+            <p>My LinkedIn</p>
+          </div>
+
+        </div>
+
       </div>
 
     </div>
